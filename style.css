@@ -1,0 +1,43 @@
+body{
+  background: #c8c6a7;
+  
+}
+
+.wrapper{
+  height: 100vh;
+  width: 1200px;
+  /* background-image: url('./assets/images/flowers_background.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+}
+
+.header__container{
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+}
+
+.header__menu{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header__menu li{
+  margin-right: 20px;
+}
+
+.footer{
+  display: flex;
+  place-content: center;
+}
+.footer p a{
+  text-decoration: none;
+}
